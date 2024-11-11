@@ -1,0 +1,23 @@
+.navbar {
+    position: fixed;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+}
+
+.nav-button {
+    color: var(--h1-color);
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.nav-button:hover {
+    transform: scale(1.05);
+}
+
+.nav-button.active {
+    transform: scale(1.05);
+}
