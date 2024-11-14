@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 
+/*:root {  !* Light theme colors *!*/
+/*  --background-color: #fff5e1;*/
+/*  --link-color: #003566;*/
+/*  --h1-color: #00195a;*/
+/*  --text-color: #000814;*/
+/*}*/
+
 :root {  /* Light theme colors */
   --background-color: #fff5e1;
   --link-color: #003566;

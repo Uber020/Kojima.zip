@@ -19,8 +19,8 @@ function ThemeToggle() {
                 checked={isDarkMode}
                 onChange={toggleDarkMode}
                 size={30}
-                moonColor="yellow"
-                sunColor="black"
+                moonColor="var(--h1-color)"
+                sunColor="var(--h1-color)"
             />
         </div>
     );
