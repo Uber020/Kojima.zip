@@ -11,15 +11,13 @@ function App() {
     return (
         <BrowserRouter>
             <div className="App">
-                {/*comment*/}
                 <Navbar />
                 <ThemeToggle />
                 <Routes>
-                    <Route path="/"             element={<Navigate to="/home" />} />
-                    {/*<Route path="/"         element={<Home />} />*/}
-                    <Route path="/home"         element={<Home />} />
-                    <Route path="/about"        element={<About />} />
-                    <Route path="/professional" element={<Professional />} />
+                    <Route path="/"             element={<Navigate to="/home"/>} />
+                    <Route path="/home"         element={<Home/>} />
+                    <Route path="/about"        element={<About/>} />
+                    <Route path="/professional" element={<Professional/>} />
                 </Routes>
             </div>
         </BrowserRouter>
