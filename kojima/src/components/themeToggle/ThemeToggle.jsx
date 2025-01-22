@@ -2,12 +2,12 @@ import { DarkModeSwitch } from "react-toggle-dark-mode";
 import { useState } from "react";
 
 function ThemeToggle() {
-    const [isDarkMode, setDarkMode] = useState(false);
+    const [isDarkMode, setDarkMode] = useState(true);
 
     function toggleDarkMode(checked) {
         setDarkMode(checked);
-        if (checked) {
-            document.body.setAttribute("data-theme", "dark");
+        if (!checked) {
+            document.body.setAttribute("data-theme", "light");
         } else {
             document.body.removeAttribute("data-theme");
         }
