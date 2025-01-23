@@ -7,12 +7,12 @@ const allTabs = [
         name: "Home",
     },
     {
-        id: "professional",
-        name: "Professional",
+        id: "projetos",
+        name: "Projetos",
     },
     {
-        id: "about",
-        name: "About",
+        id: "info",
+        name: "Info",
     }
 ];
 

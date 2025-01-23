@@ -2,8 +2,8 @@ import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import ThemeToggle  from "./components/themeToggle/ThemeToggle";
 import Navbar       from "./components/Navbar";
 import Home         from "./pages/Home";
-import About        from "./pages/About";
-import Professional from "./pages/Professional";
+import Info        from "./pages/Info";
+import Projetos     from "./pages/Projetos";
 import "./App.css";
 
 
@@ -14,10 +14,10 @@ function App() {
                 <Navbar />
                 <ThemeToggle />
                 <Routes>
-                    <Route path="/"             element={<Navigate to="/home"/>} />
-                    <Route path="/home"         element={<Home/>} />
-                    <Route path="/about"        element={<About/>} />
-                    <Route path="/professional" element={<Professional/>} />
+                    <Route path="/"          element={<Navigate to="/home"/>} />
+                    <Route path="/home"      element={<Home/>} />
+                    <Route path="/projetos"  element={<Projetos/>} />
+                    <Route path="/info"      element={<Info/>} />
                 </Routes>
             </div>
         </BrowserRouter>
