@@ -1,6 +1,6 @@
 import Renan    from "./images/Renan_square.jpg";
 import Banguela from "./images/Banguela.jpg";
-import Mosaic    from "./images/Mosaic.jpg";
+import Mosaic   from "./images/Mosaic.jpg";
 
 const links = {
     fog_itch: "https://fog-icmc.itch.io/",
