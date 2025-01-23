@@ -15,7 +15,8 @@ function Info() {
                 <img src={Renan} alt="Foto do Renan"/>
                 <div className="text-section">
                     <h1>Sobre mim</h1>
-                    <p>Estudante de Engenharia mecatrônica, interessado<br/>
+                    <p>
+                        Estudante de Engenharia mecatrônica, interessado<br/>
                         em automação industrial, programação e eletrônica.<br/>
                         Atualmente participando de uma IC com a Petrobrás<br/>
                         e no grupo de extensão <a href={links.fog_itch} target="_blank" rel="noopener noreferrer">Fellowship of the Game</a>.
