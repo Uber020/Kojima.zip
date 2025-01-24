@@ -75,6 +75,18 @@ code {
   align-items: flex-start;
 }
 
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 0;
+  /*has to be zero to be able to toggle dark mode*/
+}
+
 img {
   max-width: 200px;
   height: auto;

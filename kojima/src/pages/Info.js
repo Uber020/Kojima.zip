@@ -4,7 +4,7 @@ import Mosaic   from "./images/Mosaic.jpg";
 
 const links = {
     fog_itch: "https://fog-icmc.itch.io/",
-    navbar: "https://ibelick.com/blog/build-animated-sliding-tab-bar-with-react-tailwind-css/",
+    navbar: "https://buildui.com/recipes/animated-tabs/",
     dark_mode: "https://www.npmjs.com/package/react-toggle-dark-mode/"
 };
 
@@ -14,7 +14,7 @@ function Info() {
             <div className="content-section">
                 <img src={Renan} alt="Foto do Renan"/>
                 <div className="text-section">
-                    <h1>Sobre mim</h1>
+                    <h1>Sobre o Renan</h1>
                     <p>
                         Estudante de Engenharia mecatrônica, interessado<br/>
                         em automação industrial, programação e eletrônica.<br/>
@@ -41,7 +41,7 @@ function Info() {
                     <p>
                         Esse site foi construído utilizando HTML, CSS,<br/>
                         Tailwind e Javascript, implementando a <a href={links.navbar}  target="_blank" rel="noopener noreferrer">barra<br/>
-                        deslizante de guias</a> de Julien Thibeaut e<br/>
+                        deslizante de guias</a> do Build UI e o<br/>
                         <a href={links.dark_mode} target="_blank" rel="noopener noreferrer">alternador de temas</a> de Jose Felix.
                     </p>
                 </div>
